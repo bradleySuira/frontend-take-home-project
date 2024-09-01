@@ -47,6 +47,11 @@ Just remember: when in doubt, treat this project as though you are about to subm
 ## Setup Guide
 [SETUP GUIDE](SETUP.md)
 
+## Resolution
+- Created a new route named Artboard [/artboard](/artboard)
+- Created separated components for menu and canvas container
+- Handled basic functionalities like drawing, erase, create squares
+- published to [https://frontend-take-home-project-mauve.vercel.app/artboard](https://frontend-take-home-project-mauve.vercel.app/artboard)
 
 Good luck and if you have questions, please reach out to us at hiring@classkick.com
 

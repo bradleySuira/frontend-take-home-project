@@ -1,0 +1,24 @@
+.menuContainer {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 0.5rem 0.5rem;
+}
+
+.menuItem {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 0 0.5rem;
+
+    &>img {
+        width: 1.5rem;
+        height: auto;
+    }
+    &:hover, &:focus, &.selected {
+        border: 1px solid #000000;
+    }
+
+}

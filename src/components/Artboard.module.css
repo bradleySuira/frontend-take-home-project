@@ -1,0 +1,22 @@
+.artboard {
+  display: flex;
+}
+
+.canvas {
+  width: 100%;
+  object-fit: contain;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.cursor-pencil {
+    cursor: crosshair;
+}
+
+.cursor-eraser {
+    cursor: cell;
+}
+
+.cursor-square {
+    cursor: all-scroll;
+}
